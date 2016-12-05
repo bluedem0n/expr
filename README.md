@@ -76,6 +76,7 @@ $ NODE_ENV=production node app
 ## License
 
 MIT © [Sthefany Floriano,Michelle Seguil,Liz Ruelas,Alexandra Fernandez]
+
 **Free Software, Hell Yeah!**
 
   
