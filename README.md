@@ -3,18 +3,8 @@ Description
 
 
 
-### [Ir al demo](https://sthecrash.github.io/twitter-events)
+### [Ir al demo]()
 
-
-## Versiones del Proyecto
-
-- [Arbol del Proyecto](#directorios-y-archivos)
-- [V.0.0.1](#version-1)
-- [V.0.0.2](#version-2)
-- [V.0.0.3](#version-3)
-- [V.0.0.4](#version-4)
-- [V.0.0.5](#version-5)
-- [V.0.0.6](#version-6)
 
 ## Directorios y Archivos
 
@@ -39,11 +29,55 @@ twitter-events/
 │   └── normalize.css
 └── 
 ```
+# votaciones2021 
 
-## Version 1
+
+### Tech
 
 
-#### Funcionalidades
+### Plugins
+
+* 
+* 
+* 
+* 
+
+## Installation
+
+Install the dependencies and devDependencies and start the server.
+
+```sh
+$ cd dillinger
+$ npm install -d
+$ node app
+```
+
+For production environments...
+
+```sh
+$ npm install --production
+$ npm run predeploy
+$ NODE_ENV=production node app
+```
+
+## Usage
+
+
+
+
+### Todos
+
+ - Write Tests
+ - Rethink Github Save
+ - Add Code Comments
+ - Add Night Mode
+
+
+## License
+
+MIT © [Sthefany Floriano,Michelle Seguil,Liz Ruelas,Alexandra Fernandez]
+**Free Software, Hell Yeah!**
+
   
 
 
