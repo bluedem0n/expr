@@ -13,7 +13,7 @@ Dentro del repositorio se encuentran los siguientes directorios y archivos.
 Usted verá algo como esto :
 
 ```
-twitter-events/
+SistemaVotaciones/
 ├── css/
 │   ├── bootstrap.min.css
 │   ├── estilos.css
@@ -78,7 +78,3 @@ $ NODE_ENV=production node app
 MIT © [Sthefany Floriano,Michelle Seguil,Liz Ruelas,Alexandra Fernandez]
 
 **Free Software, Hell Yeah!**
-
-  
-
-

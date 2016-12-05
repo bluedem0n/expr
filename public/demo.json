@@ -1,0 +1,102 @@
+[
+	{
+		"nombre" : "Liz Ruelas Borda",
+        "dni" : "70202170"
+	},
+
+	{
+		"nombre" : "Andrea Cabrera Palomino",
+        "dni" : "71616647"
+
+	},
+
+	{
+		"nombre" : "Evelyn Farfan Valdivia",
+        "dni": "48073077"
+        
+	},
+
+	{
+		"nombre" : "Sheila Acuña Obregon",
+        "dni": "46788857"
+	},
+
+	{
+	   "nombre" : "Sheyla Breña",
+       "dni" : "76311018"
+	},
+
+    {
+	   "nombre" : "Melissa Berrocal Tipte",
+       "dni" : "45900980"
+	},
+
+	{
+	   "nombre" : "Sthefany Floriano",
+       "dni" : "73435883"
+	},
+	{
+	   "nombre" : "Jean",
+       "dni" : "07634132"
+	},
+	{
+	   "nombre" : "Cilene De la Cruz",
+       "dni" : "47604712"
+	},
+	{
+	   "nombre" : "Jocelyn Lozano",
+       "dni" : "73587286"
+	},
+	{
+	   "nombre" : "Milagros Quispe",
+       "dni" : "46732209"
+	},
+	{
+	   "nombre" : "Nora Yauricaza",
+       "dni" : "70831039"
+	},
+	{
+	   "nombre" : "Paola Ortiz de Zevallos",
+       "dni" : "46699284"
+	},
+	{
+	   "nombre" : "Anabel Espinal",
+       "dni" : " 75539624"
+	},
+	{
+	   "nombre" : "Sara Castillo",
+       "dni" : "44538253"
+	},
+	{
+	   "nombre" : "Sammia Zubizarreta",
+       "dni" : "60076324"
+	},
+	{
+	   "nombre" : "Sofia Caballero",
+       "dni" : "44597079"
+	},
+	{
+	   "nombre" : "Sandy Ciquero",
+       "dni" : "45951625"
+	},
+	{
+	   "nombre" : "Andrea Maucaylli",
+       "dni" : "47116077"
+	},
+	{
+	   "nombre" : "Luis Alberto Moreno",
+       "dni" : "12345678"
+	},
+	{
+	   "nombre" : "Diana Navarro",
+       "dni" : "12345678"
+	},
+	{
+	   "nombre" : "Michelle Seguil",
+       "dni" : "72964492"
+	},
+	{
+	   "nombre" : "Alexandra Lopez",
+       "dni" : "46926632"
+	}
+]
