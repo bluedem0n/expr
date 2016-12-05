@@ -18,6 +18,31 @@
 }
 
 .opciones{
-    padding: 70px;
+    padding: 65px;
+    font-size: 20px;
     margin-top: 20px;
+    color: white;
+}
+
+.opcion-1{
+    background-color: blue;
+    border-color: blue;
+}
+
+.opcion-2{
+    background-color: firebrick;
+    border-color: firebrick;
+}
+
+.glyphicon-arrow-right{
+    font-size: 30px;
+}
+/*seccion final*/
+.seccion-final{
+    margin-top: 100px;
+}
+
+.texto-final{
+    margin-top: 50px;
+    font-size: 24px;
 }
