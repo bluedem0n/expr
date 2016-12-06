@@ -33,3 +33,15 @@
 .span{
     font-size: 20px;
 }
+
+/*resultado final*/
+.opcion-ganadora{
+    position: relative;
+    left: 465px;
+    width: 20%;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 43px;
+    margin-bottom: 50px;
+}
