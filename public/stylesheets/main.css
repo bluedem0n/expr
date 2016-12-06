@@ -31,7 +31,7 @@
 	height: 10em;
 	margin: 0 auto;
 	position: relative;
-	margin-top: 1em;
+	margin-top: 4em;
 	display: block;
 	margin-bottom: 2em;
 	background-color: dodgerblue;
@@ -47,11 +47,19 @@
     top: -25px;
 }
 
-.glyphicon-arrow-right {
-	font-size: 30px;
+
+.next{
+	font-size: 1em;
+	width: 20em;
+	height: 10em;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 4em;
+	display: block;
+	margin-bottom: 2em;
+	background-color: aqua;
+	color: white;
 }
-
-
 /*seccion final*/
 
 .seccion-final {
