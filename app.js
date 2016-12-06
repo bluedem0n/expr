@@ -25,7 +25,7 @@ io.on('connection', function(socket){
 
 });
 server.listen(port,function(){
-	console.log("Servidor corriendo en http://localhost:" + port)
+	console.log('Servidor corriendo en http://localhost:' + port)
 });
 
 var path = require('path');

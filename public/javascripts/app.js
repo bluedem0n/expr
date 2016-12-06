@@ -1,8 +1,8 @@
 $(document).ready(function () {
-	$("#siguiente").click(siguientePagina);
+	$('#siguiente').click(siguientePagina);
 
 	function siguientePagina() {
-		$("#siguiente").attr("href", "users/segunda");
+		$('#siguiente').attr('href', 'users/segunda');
 	}
 	
 	var state = {
@@ -35,8 +35,6 @@ $(document).ready(function () {
 		var mount = $('#options-mount');
 		var button = mount.append(options);
 		var botones = $('.opciones');
-		var button1 = $(".opciones")[0];
-		var button2 = $(".opciones")[1];
 		
 		if(botones.click(function(){
 			var divcheck = $('#check');
@@ -45,10 +43,7 @@ $(document).ready(function () {
 				$(this).append(divcheck);
 				$(botones).attr('disabled',true);
 		}));
-		
-		if(button1.click(function(){
-		   button2.disabled = true;
-			}));
+
 	}
 	renderVote(state);
 });
