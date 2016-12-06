@@ -35,6 +35,9 @@ $(document).ready(function () {
 		var mount = $('#options-mount');
 		var button = mount.append(options);
 		var botones = $('.opciones');
+		var button1 = $(".opciones")[0];
+		var button2 = $(".opciones")[1];
+		
 		if(botones.click(function(){
 			var divcheck = $('#check');
 			var check = '<div class="check"></div>';
@@ -42,9 +45,9 @@ $(document).ready(function () {
 				$(this).append(divcheck);
 		}));
 		
-		
-			
+		if(button1.click(function(){
+		   button2.disabled = true;
+			}));
 	}
 	renderVote(state);
 });
-

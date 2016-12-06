@@ -1,4 +1,33 @@
 var express = require('express');
+var app = express();
+var server = require('http').createServer(app);
+/* SOCKET IO */
+var io = require('socket.io')(server);
+var port = process.env.PORT || 8080;
+var meta = {
+	usersConnected: 0,
+};
+io.on('connection', function(socket){
+
+	meta.usersConnected++;
+	io.emit('user connected', {
+		'msg': 'a user connected',
+		'meta': meta,
+	});
+
+	socket.on('disconnect', function(){
+		meta.usersConnected--;
+		io.emit('user disconnected',{
+			'msg': 'user disconnected',
+			'meta': meta,
+		});
+	});
+
+});
+server.listen(port,function(){
+	console.log("Servidor corriendo en http://localhost:" + port)
+});
+
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
@@ -6,7 +35,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var users = require('./routes/users');
-var app = express();
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
