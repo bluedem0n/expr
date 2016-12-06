@@ -1,0 +1,35 @@
+.row{
+    text-align: center;
+}
+
+/*seccion inicio*/
+.pantalla-inicio{
+    margin: 100px;
+}
+.iniciar-votacion{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+.texto-inicio{
+    margin: 50px 352px 50px 352px;
+}
+
+/*seccion barras*/
+.titulo{
+   margin-bottom: 70px; 
+}
+.barras{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.barra-azul{
+    background-color: blue;
+}
+.barra-roja{
+    background-color: red
+}
+.span{
+    font-size: 20px;
+}
