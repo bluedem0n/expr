@@ -43,6 +43,7 @@ $(document).ready(function () {
 			var check = '<div class="check"></div>';
 				divcheck.append(check);
 				$(this).append(divcheck);
+				$(botones).attr('disabled',true);
 		}));
 		
 		if(button1.click(function(){
